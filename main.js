@@ -102,7 +102,6 @@ function deleteIssue(id) {
       issues.splice(i, 1);
     }
   }
-
   localStorage.setItem("issues", JSON.stringify(issues));
 
   fetchIssues();
