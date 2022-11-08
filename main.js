@@ -1,4 +1,4 @@
-document.getElementById("issueInputForm").addEventListener("submit", saveIssue)
+document.getElementById("issueInputForm").addEventListener("submit", saveIssue);
 
 function fetchIssues() {
   let issues = JSON.parse(localStorage.getItem("issues"));
